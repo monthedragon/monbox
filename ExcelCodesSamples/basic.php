@@ -5,6 +5,7 @@ $template_path = 'include/Excel/example/template/template.xlsx';
 $excel_xml = new Excel($template_path);
 $excel_xml->setFileName("excel_file_".time());
 
+//Additional comment from branch
 //Sheet #12345-this will be merged later in MAIN
 //rename active sheet
 $excel_xml->setActiveSheetName("1New Sheetname ".date("Y-m-d"));

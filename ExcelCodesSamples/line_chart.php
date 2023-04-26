@@ -24,8 +24,8 @@ $chart->setChartLocation(
         ),
         "to" => array(
             "cell"    => "S30",
-            "colOff"  => 0,
-            "rowOff"  => 0,
+            "colOff"  => 1000,
+            "rowOff"  => 2000,
         )
     )
 );
